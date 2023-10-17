@@ -118,13 +118,13 @@ html {
   border: 0.1px solid;
   border-radius: 12px;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
+  font-size: 120%;
   border-style: inset;
   background-color: white;
   border-color: rgb(181, 63, 65);
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   text-decoration: solid;
-  overflow: hidden
+  overflow: hidden;
   max-width: 100%;
   height: auto;
 }
@@ -141,7 +141,7 @@ html {
   text-decoration: solid;
   font-family: Arial, Helvetica, sans-serif;
   color: grey;
-  font-size: 16px;
+  font-size: 120%;
   border-style: inset;
   border-color: rgb(181, 63, 65);
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
@@ -166,8 +166,8 @@ h3 {
   transform: none !important;
 }
 #flogo img {
-  height: 100%;
-  width: 35px;
+  height: 3vw;
+  width: 3vw;
   grid-area: ft;
   display: block;
   margin-left: 100%;
@@ -176,7 +176,7 @@ h3 {
   display: inline;
   margin-right: 3%;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: small;
+  font-size: medium;
 }
 .navbuttons:hover {
   animation: vibrate 0.5s ease-in-out;
